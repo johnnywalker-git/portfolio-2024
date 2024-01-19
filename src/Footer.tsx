@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({color = 'white', size = 42 }) => {
     return(
         <div className="flex justify-center">
             <div className="flex flex-row justify-center items-center text-white w-1/3">
-            <h2 className='text-xs px-1'>© Johnathan Walker 2024</h2>
+            <h2 className='text-xs px-1'>© Johnathan Walker</h2>
             </div>
             <div className="w-1/3">
             <Icons color={color} size={size}/>
