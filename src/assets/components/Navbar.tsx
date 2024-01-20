@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react';
 import { useState } from 'react';
 import Icons from './Icons';
+import profileImage from '../images/jw-circle.png'
 
 
 const Navbar = () => {
@@ -14,8 +15,12 @@ const Navbar = () => {
 
     return(
         <div className="flex flex-col w-full bg-gradient-to-tr from-gray-900 to-gray-600 bg-gradient-to-r justify-between p-3 lg:w-1/3 lg:h-screen lg:place-content-around">
-            <div className="sm:flex w-full p-3 justify-between text-white flex lg:justify-center">
-                <h1 className='self-center text-2xl md:text-xl lg:hidden'>Portfolio | Johnathan Walker</h1>
+            <div className="hidden lg:flex align-center justify-center pt-3">
+                <img src={profileImage} width={150} height={150} />
+            </div>
+            <div className="flex w-full p-3 text-white flex lg:mb-10 justify-between md:justify-start">
+                <img src={profileImage} width={50} height={50} className='lg:hidden'/>
+                <h1 className='self-center text-2xl md:text-xl lg:hidden md:ml-10'>Portfolio | Johnathan Walker</h1>
                 <a href="" className='flex sm:hidden' onClick={(e) => {handleNav(e)}}>
                 {!navOpen ? <Icon icon="ci:hamburger-md" style={{ fontSize: '42px' }} /> :
                 <Icon icon="ph:x-fill" style={{ fontSize: '42px' }} />}
@@ -35,7 +40,7 @@ const Navbar = () => {
             <a href="#" className="px-2 m-1 hover:underline">Projects</a>
             <a href="#" className="px-2 m-1 hover:underline">Contact</a>
             </div>
-            <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center'>
+            <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center lg:mb-10'>
                 <Icons />
             </div>
         </div>
