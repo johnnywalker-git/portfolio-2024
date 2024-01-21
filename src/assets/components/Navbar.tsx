@@ -18,9 +18,9 @@ const Navbar = () => {
             <div className="hidden lg:flex align-center justify-center pt-3">
                 <img src={profileImage} width={150} height={150} />
             </div>
-            <div className="flex w-full p-3 text-white flex lg:mb-10 justify-between md:justify-start">
+            <div className="flex w-full p-3 text-white flex lg:mb-10 justify-between md:justify-start sm:place-items-center">
                 <img src={profileImage} width={50} height={50} className='lg:hidden'/>
-                <h1 className='self-center text-2xl md:text-xl lg:hidden md:ml-10'>Portfolio | Johnathan Walker</h1>
+                <h1 className='text-xl self-center md:ml-10 lg:hidden sm:text-mg'>Portfolio | Johnathan Walker</h1>
                 <a href="" className='flex sm:hidden' onClick={(e) => {handleNav(e)}}>
                 {!navOpen ? <Icon icon="ci:hamburger-md" style={{ fontSize: '42px' }} /> :
                 <Icon icon="ph:x-fill" style={{ fontSize: '42px' }} />}
@@ -35,10 +35,10 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center" : "hidden"} text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
-            <a href="#" className="px-2 m-1 hover:underline">Home</a>
-            <a href="#" className="px-2 m-1 hover:underline">Skills</a>
-            <a href="#" className="px-2 m-1 hover:underline">Projects</a>
-            <a href="#" className="px-2 m-1 hover:underline">Contact</a>
+            <a href="#" className="border md:border-none text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600  md:text-base md:border-0 lg:border">Home</a>
+            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Skills</a>
+            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Projects</a>
+            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Contact</a>
             </div>
             <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center lg:mb-10'>
                 <Icons />
