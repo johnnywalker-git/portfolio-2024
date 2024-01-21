@@ -36,8 +36,11 @@ const Navbar = () => {
             </div>
             <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center" : "hidden"} text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Home</a>
+            <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Skills</a>
+            <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Projects</a>
+            <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Contact</a>
             </div>
             <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center lg:mb-10'>
