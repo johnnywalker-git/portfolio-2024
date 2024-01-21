@@ -46,6 +46,9 @@ const Navbar = () => {
             <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center lg:mb-10'>
                 <Icons />
             </div> 
+            <div className='hidden lg:flex self-center text-white text-xs'>
+                <h5>© Johnathan Walker</h5>
+            </div>
         </div>
     )
 }
