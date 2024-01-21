@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="hidden lg:flex align-center justify-center pt-3">
                 <img src={profileImage} width={150} height={150} />
             </div>
-            <div className="flex w-full p-3 text-white flex lg:mb-10 justify-between md:justify-start sm:place-items-center">
+            <div className="lg:hidden flex w-full p-3 text-white flex lg:mb-5 justify-between md:justify-start sm:place-items-center">
                 <img src={profileImage} width={50} height={50} className='lg:hidden'/>
                 <h1 className='text-xl self-center md:ml-10 lg:hidden sm:text-mg'>Portfolio | Johnathan Walker</h1>
                 <a href="" className='flex sm:hidden self-center' onClick={(e) => {handleNav(e)}}>
