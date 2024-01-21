@@ -35,14 +35,14 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center" : "hidden"} text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
-            <a href="#" className="border md:border-none text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600  md:text-base md:border-0 lg:border">Home</a>
-            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Skills</a>
-            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Projects</a>
-            <a href="#" className="border text-lg px-2 m-1 hover:underline text-xl p-1 w-40 hover:bg-gray-600 md:text-base md:border-0 lg:border">Contact</a>
+            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Home</a>
+            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Skills</a>
+            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Projects</a>
+            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Contact</a>
             </div>
             <div className='hidden lg:flex lg:flex-col lg:self-auto lg:self-center lg:mb-10'>
                 <Icons />
-            </div>
+            </div> 
         </div>
     )
 }
