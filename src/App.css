@@ -11,7 +11,11 @@ html, body, #root {
 
   
   /* CSS */
-
+  .bg-custom {
+    background-image: url('/src/assets/images/code.jpg');
+    background-size: cover;
+    background-position: center;
+  }
   
   /* CSS */
   .button-54 {

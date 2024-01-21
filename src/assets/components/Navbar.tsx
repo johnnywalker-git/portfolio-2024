@@ -14,7 +14,7 @@ const Navbar = () => {
     }
 
     return(
-        <div className="flex flex-col w-full bg-gradient-to-tr from-gray-900 to-gray-600 bg-gradient-to-r justify-between p-3 lg:w-1/3 lg:h-screen lg:place-content-around">
+        <div className="flex flex-col w-full bg-gradient-to-tr from-gray-900 to-gray-600 bg-gradient-to-r justify-between p-3 lg:w-1/3 lg:h-screen lg:place-content-around lg:fixed">
             <div className="hidden lg:flex align-center justify-center pt-3">
                 <img src={profileImage} width={150} height={150} />
             </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center" : "hidden"} text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
-            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Home</a>
+            <a href="/home" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Home</a>
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Skills</a>
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>

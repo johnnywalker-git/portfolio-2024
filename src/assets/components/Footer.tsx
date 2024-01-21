@@ -1,4 +1,4 @@
-import Icons from "./assets/components/Icons"
+import Icons from "./Icons"
 import { Icon } from '@iconify/react';
 
 
