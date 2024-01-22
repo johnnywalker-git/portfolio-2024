@@ -1,18 +1,78 @@
 
+import { Icon } from '@iconify/react';
+
+
 const Skills = () => {
     return(
         <div className="ml-auto mt-auto flex flex-col lg:w-2/3 bg-white items-center min-h-screen">
         <div className="w-full flex flex-col bg-gray-900 h-40 lg:h-60 bg-custom justify-center items-center">
         <h2 className="text-white text-2xl m-3 bg-black bg-opacity-60 p-1">Skills</h2>
-        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1">My list of skills is always growing. <br /> I am always looking for opportunities to collaborate with others.</h3>
+        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1">I am always scoping for new things to learn <br /> be it technologies or people skills!</h3>
         </div>
         <div className="w-11/12 flex flex-col justify-center">
-            <h2 className="text-lg bg-gray-800 mt-5 p-2 text-white">About me</h2>
+            <h2 className="text-lg bg-gray-800 mt-5 p-2 text-white">Main tools</h2>
             <div className="w-11/12 flex mt-5 justify-center text-justify p-4 items-center self-center">
-            <p>As a junior developer at Northcoders, I apply my strong JavaScript fundamentals and agile skills to create responsive, intelligent, and user-friendly front-end websites. I have a passion for learning new technologies and tools, and I am currently working with Node.js, React, and Firebase to build dynamic web applications.
-                <br></br>
-                <br></br>
-                I have a background in accounting and finance, with over four years of experience as an accounts assistant and a diploma in accounting from AAT. I made a career change to software development in 2023, after graduating from the Northcoders bootcamp, where I learned how to use HTML, CSS, Bootstrap, Git, Adobe, API's, PSQL, and Jest.        </p>
+                <p>
+                    These are the main tools and technologies I have honed my skills in so far...
+                </p>
+                </div>
+                <div className="skillset grid grid-cols-3 sm:grid-cols-4 gap-2">
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="logos:html-5" height={'80px'}/>
+                    <h5 className='text-gray-800'>HTML 5</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="logos:css-3" width="80" height="80" />
+                    <h5 className='text-gray-800'>CSS 3</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="vscode-icons:file-type-js-official" width="80" height="80" />
+                    <h5 className='text-gray-800'>JavaScript</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:git" width="80" height="80" />
+                    <h5 className='text-gray-800'>GIT</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="eva:github-fill" color="purple" width="80" height="80" />
+                    <h5 className='text-gray-800'>Github</h5>   
+                    </div>                 
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:react-dark" color="purple" width="80" height="80" />
+                    <h5 className='text-gray-800'>React</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:postgresql-light" color="purple" width="80" height="80" />
+                    <h5 className='text-gray-800'>PostgreSQL</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:jest" color="purple" width="80" height="80" />
+                    <h5 className='text-gray-800'>Jest</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="vscode-icons:file-type-node" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>NodeJS</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:supabase-dark" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>Supabase</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="logos:firebase" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>Firebase</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="vscode-icons:file-type-cypress" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>Cypress</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="skill-icons:tailwindcss-dark" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>Tailwind</h5>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                    <Icon icon="logos:bootstrap" color="green" width="80" height="80" />
+                    <h5 className='text-gray-800'>Bootstrap</h5>
+                    </div>
                 </div>
         </div>
 

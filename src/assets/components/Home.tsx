@@ -4,7 +4,7 @@ const Home = () => {
         <div className="ml-auto mt-auto flex flex-col lg:w-2/3 bg-white items-center min-h-screen">
         <div className="w-full flex flex-col bg-gray-900 h-40 lg:h-60 bg-custom justify-center items-center">
         <h2 className="text-white text-2xl m-3 bg-black bg-opacity-60 p-1">Portfolio</h2>
-        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1">Specialising in full-stack web development. <br /> Skilled with JavaScript and associated frameworks.</h3>
+        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1">Specialising in front-end web development. <br /> Skilled with JavaScript and associated frameworks.</h3>
         </div>
         <div className="w-11/12 flex flex-col justify-center">
             <h2 className="text-lg bg-gray-800 mt-5 p-2 text-white">About me</h2>
