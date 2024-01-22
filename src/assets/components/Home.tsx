@@ -1,4 +1,3 @@
-import codeImage from "../images/code.jpg"
 
 const Home = () => {
     return(

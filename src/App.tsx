@@ -1,6 +1,7 @@
 import './App.css'
 import Home from './assets/components/Home';
 import Navbar from './assets/components/Navbar'
+import Skills from './assets/components/Skills';
 import Footer from './assets/components/Footer'
 import { Routes, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />    
       <Routes>
       <Route path="/home" element={<Home />} />
+      <Route path="/skills" element={<Skills />} />
       <Route path="/*" element={<Home />} />
       </Routes>
       </div>
