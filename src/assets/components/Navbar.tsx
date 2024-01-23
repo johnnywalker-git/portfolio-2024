@@ -28,13 +28,13 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex lg:flex-col lg:text-white lg:self-center lg:text-center">
                 <h1 className='text-3xl font-title'>Johnathan Walker</h1>
-                <h2 className='text-lg ' >Software Developer</h2>
+                <h2 className='text-lg font-text ' >Software Developer</h2>
                 <div className='flex flex-row justify-center items-center'>
                 <Icon icon="carbon:location" color="white" />
                 <h2 className='text-md px-1'>West Yorkshire</h2>
                 </div>
             </div>
-            <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center" : "hidden"} text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
+            <div className={`${navOpen ? "flex flex-col items-center h-48 justify-center font-text" : "hidden"}  font-text text-center text-white self-auto flex-col self-center md:flex md:flex-row lg:flex lg:flex-col`}>
             <a href="/home" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Home</a>
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="/skills" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Skills</a>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Icons />
             </div> 
             <div className='hidden lg:flex self-center text-white text-xs'>
-                <h5>© Johnathan Walker</h5>
+                <h5 className='font-text'>© Johnathan Walker</h5>
             </div>
         </div>
     )

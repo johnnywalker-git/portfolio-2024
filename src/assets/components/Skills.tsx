@@ -6,11 +6,11 @@ const Skills = () => {
     return(
         <div className="ml-auto mt-auto flex flex-col lg:w-2/3 bg-white items-center min-h-screen">
         <div className="w-full flex flex-col bg-gray-900 h-40 lg:h-60 bg-custom-1 justify-center items-center">
-        <h2 className="text-white text-2xl m-3 bg-gray-800 bg-opacity-60 p-1">Skills</h2>
-        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1">I am always scoping for new things to learn <br /> be it technologies or people skills!</h3>
+        <h2 className="text-white text-2xl m-3 bg-gray-800 bg-opacity-60 p-1 font-title">Skills</h2>
+        <h3 className="text-white text-l text-center bg-black bg-opacity-60 p-1 font-text">I am always scoping for new things to learn <br /> be it technologies or people skills!</h3>
         </div>
-        <div className="w-11/12 flex flex-col justify-center">
-            <h2 className="text-lg bg-gray-800 mt-5 p-2 text-white">// Main tools</h2>
+        <div className="w-11/12 flex flex-col justify-center font-text">
+            <h2 className="text-lg bg-gray-800 mt-5 p-2 text-white font-text">// Main tools</h2>
             <div className="w-11/12 flex mt-5 justify-center text-justify p-4 items-center self-center">
                 <p>
                     These are the main tools and technologies I have honed my skills in so far...
@@ -77,8 +77,16 @@ const Skills = () => {
                 <div className='text-lg bg-gray-800 mt-5 p-2 text-white'>
                     <h2>Other skills</h2>
                 </div>
-                <div className="skills-container flex">
+                <div className="skills-container grid grid-cols-3">
                     <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
+                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hi</p>
+
+                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>THis is a sentence</p>
+
+                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
+
+                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
+
                 </div>
         </div>
 
