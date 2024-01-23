@@ -20,14 +20,14 @@ const Navbar = () => {
             </div>
             <div className="lg:hidden flex w-full p-3 text-white flex lg:mb-5 justify-between md:justify-start sm:place-items-center">
                 <img src={profileImage} width={50} height={50} className='lg:hidden'/>
-                <h1 className='text-xl self-center md:ml-10 lg:hidden sm:text-mg'>Portfolio | Johnathan Walker</h1>
+                <h1 className='text-xl self-center md:ml-10 lg:hidden sm:text-mg font-title'>Portfolio | Johnathan Walker</h1>
                 <a href="" className='flex sm:hidden self-center' onClick={(e) => {handleNav(e)}}>
                 {!navOpen ? <Icon icon="ci:hamburger-md" style={{ fontSize: '42px' }} /> :
                 <Icon icon="ph:x-fill" style={{ fontSize: '42px' }} />}
                 </a>
             </div>
             <div className="hidden lg:flex lg:flex-col lg:text-white lg:self-center lg:text-center">
-                <h1 className='text-3xl'>Johnathan Walker</h1>
+                <h1 className='text-3xl font-title'>Johnathan Walker</h1>
                 <h2 className='text-lg ' >Software Developer</h2>
                 <div className='flex flex-row justify-center items-center'>
                 <Icon icon="carbon:location" color="white" />

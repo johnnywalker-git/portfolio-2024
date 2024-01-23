@@ -16,6 +16,14 @@ html, body, #root {
     background-size: cover;
     background-position: center;
   }
+
+  .bg-custom-1 {
+    background-image: url('/src/assets/images/mac.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
   
   /* CSS */
   .button-54 {
