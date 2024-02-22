@@ -5,6 +5,7 @@ import Skills from './assets/components/Skills';
 import Footer from './assets/components/Footer'
 import { Routes, Route } from 'react-router-dom';
 import { Icon } from '@iconify/react';
+import Projects from './assets/components/Projects';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/home" element={<Home />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/*" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
       </Routes>
       </div>
       <footer>

@@ -39,7 +39,7 @@ const Navbar = () => {
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="/skills" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Skills</a>
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>
-            <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Projects</a>
+            <a href="/projects" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Projects</a>
             <h3 className='hidden md:block lg:hidden self-center'> | </h3>
             <a href="#" className="border text-base px-2 m-1 hover:underline p-1 w-40 hover:bg-gray-600 md:border-0 lg:border">Contact</a>
             </div>
