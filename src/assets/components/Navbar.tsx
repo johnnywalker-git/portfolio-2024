@@ -16,7 +16,7 @@ const Navbar = () => {
     return(
         <div className="flex flex-col w-full bg-gradient-to-tr from-gray-900 to-gray-600 bg-gradient-to-r justify-between p-3 lg:w-1/3 lg:h-screen lg:place-content-around lg:fixed">
             <div className="hidden lg:flex align-center justify-center pt-3">
-                <img src={profileImage} width={150} height={150} />
+                <img src={profileImage} width={150} height={150} className='drop-shadow-md'	/>
             </div>
             <div className="lg:hidden flex w-full p-3 text-white flex lg:mb-5 justify-between md:justify-start sm:place-items-center">
                 <img src={profileImage} width={50} height={50} className='lg:hidden'/>

@@ -8,7 +8,8 @@ export default {
       },
       fontFamily: {
         title: ['Roboto Condensed', 'sans-serif'],
-        text: ['Lato', 'sans-serif']
+        text: ['Lato', 'sans-serif'],
+        text: ['Open Sans', 'sans-serif']
       }
     },
    
