@@ -16,10 +16,10 @@ function App() {
       <div className='lg:h-screen lg:flex'>
       <Navbar />    
       <Routes>
-      <Route path="https://johnathan-walker-portfolio-2024.netlify.app/home" element={<Home />} />
-      <Route path="https://johnathan-walker-portfolio-2024.netlify.app/skills" element={<Skills />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/skills" element={<Skills />} />
       <Route path="/*" element={<Home />} />
-      <Route path="https://johnathan-walker-portfolio-2024.netlify.app/projects" element={<Projects />} />
+      <Route path="/projects" element={<Projects />} />
       </Routes>
       </div>
       <footer>
