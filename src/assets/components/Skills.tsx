@@ -81,16 +81,17 @@ const Skills = () => {
                 <div className='text-lg bg-gray-800 mt-5 p-2 text-white pl-5'>
                     <h2>Other skills</h2>
                 </div>
-                <div className="skills-container grid grid-cols-3">
-                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded w-auto'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
-                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hi</p>
-
-                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>THis is a sentence</p>
-
-                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
-
-                    <p className='flex items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Hello</p>
-
+                <div className="skills-container flex flex-wrap gap-1 mt-2 max-w-full">
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Team-working</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Confidence</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Effective communication</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Empathy</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Responsibility</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Efficiency</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Assertiveness</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Proactive</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Honesty</p>
+                    <p className='flex text-xs items-center text-white bg-blue-grey-500 m-1 px-2 rounded'><Icon icon="mdi:tag" color="white" className='m-1'/>Detail-oriented</p>
                 </div>
         </div>
 
