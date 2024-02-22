@@ -4,7 +4,6 @@ import Navbar from './assets/components/Navbar'
 import Skills from './assets/components/Skills';
 import Footer from './assets/components/Footer'
 import { Routes, Route } from 'react-router-dom';
-import { Icon } from '@iconify/react';
 import Projects from './assets/components/Projects';
 
 
